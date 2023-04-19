@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Suscribe from "@/Components/suscribe";
 import Component2 from "@/Components/component2";
+import Component3 from "@/Components/component3";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,8 +20,11 @@ export default function Home() {
       <section id="c1" style={{ backgroundColor: "#f4e6e9" }}>
         <Suscribe />
       </section>
-      <section id="c2" style={{ backgroundColor: "#FDF7F8" }}>
+      <section id="c2">
         <Component2 />
+      </section>
+      <section id="c3">
+        <Component3 />
       </section>
     </>
   );
