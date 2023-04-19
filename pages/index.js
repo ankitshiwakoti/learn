@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Suscribe from "@/Components/suscribe";
+import Component2 from "@/Components/component2";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,9 +16,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main style={{ backgroundColor: "#f4e6e9" }}>
+      <section id="c1" style={{ backgroundColor: "#f4e6e9" }}>
         <Suscribe />
-      </main>
+      </section>
+      <section id="c2" style={{ backgroundColor: "#FDF7F8" }}>
+        <Component2 />
+      </section>
     </>
   );
 }

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Suscribe = () => {
   return (
-    <Container style={{ backgroundColor: "#f4e6e9" }}>
+    <Container className=" ">
       <Row className="pt-5">
         <div className="col-md-12 ">
           <div className="col-md-12 col-md-12 d-flex align-items-center justify-content-center pt-3">
@@ -43,7 +43,7 @@ const Suscribe = () => {
               Save time.Save Money. Give us an Opportunity
             </h2>
           </div>
-          <div className="col-md-12 d-flex align-items-center justify-content-center pt-3 text-center">
+          <div className="col-md-12 d-flex align-items-center justify-content-center pt-3 text-center mb-5">
             <p style={{ color: "#495e49" }}>
               Explore our CDR services with a 100% approval rate. Get your
               quality CDR report prepared by our experienced writters from
